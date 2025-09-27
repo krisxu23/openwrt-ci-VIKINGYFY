@@ -1,5 +1,5 @@
 #CI项目
-name: LiBwrt-6.x
+name: LiBwrt-IPQ60XX
 
 #CI计划
 on:
