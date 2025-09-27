@@ -12,7 +12,7 @@
 - 源码来源：[LiBwrt](https://github.com/LiBwrt-op/openwrt-6.x) [VIKINGYFY](https://github.com/VIKINGYFY/immortalwrt)
 
 ## 仓库说明
-- 本人 Fork 的仓库：[VIKINGYFY](https://github.com/VIKINGYFY/immortalwrt)[LibWrt](https://github.com/LiBwrt/openwrt-6.x)，内容大体一致。
+- 本人 Fork 的仓库：[VIKINGYFY](https://github.com/VIKINGYFY/immortalwrt),[LibWrt](https://github.com/LiBwrt/openwrt-6.x)，内容大体一致。
 - `ImmortalWrt` 和 `LibWrt` 相互印证。
 - `LibWrt` 因为 DTS 更为丰富，所以支持更多的机型。
 
