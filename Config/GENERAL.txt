@@ -138,25 +138,4 @@ CONFIG_PACKAGE_luci-app-momo=y                            # momo 代理插件
 CONFIG_PACKAGE_luci-app-nikki=y                           # nikki 代理插件
 CONFIG_PACKAGE_luci-app-sqm=y                             # 流量整形 (SQM) 插件
 CONFIG_PACKAGE_luci-app-mosdns=y                          # dns 插件
-
 # ==================================================
-# 明确排除/删除的插件 (Excluded Plugins)
-# ==================================================
-CONFIG_PACKAGE_luci-app-upnp=n                            # (不编译) UPnP / NAT-PMP 服务
-CONFIG_PACKAGE_luci-app-wolplus=n                         # (不编译) 网络唤醒 Plus+
-CONFIG_PACKAGE_luci-app-samba4=n                          # (不编译) Samba4 文件共享服务
-CONFIG_PACKAGE_luci-app-vlmcsd=n                          # (不编译) KMS 激活服务器
-CONFIG_PACKAGE_luci-app-aria2=n                           # (不编译) Aria2 下载工具
-CONFIG_PACKAGE_luci-app-wifischedule=n                    # (不编译) WiFi 计划任务
-CONFIG_PACKAGE_luci-app-uhttpd=n                          # (不编译) uHTTPd Web 服务器管理 (通常由 nginx/apache 替代)
-CONFIG_PACKAGE_luci-app-frps=n                            # (不编译) FRP 内网穿透服务端
-CONFIG_PACKAGE_luci-app-frpc=n                            # (不编译) FRP 内网穿透客户端
-CONFIG_PACKAGE_luci-app-hd-idle=n                         # (不编译) 硬盘休眠插件
-CONFIG_PACKAGE_luci-app-banip=n                           # (不编译) IP 黑名单防火墙插件
-CONFIG_PACKAGE_luci-app-acme=n                            # (不编译) ACME (Let's Encrypt) 证书管理
-CONFIG_PACKAGE_luci-app-arpbind=n                         # (不编译) IP/MAC 地址绑定插件
-CONFIG_PACKAGE_luci-app-usb-printer=n                     # (不编译) USB 打印机服务器
-CONFIG_PACKAGE_luci-app-oaf=n                             # (不编译) 应用过滤插件
-CONFIG_PACKAGE_luci-proto-wireguard=n                     # (不编译) WireGuard VPN 协议支持
-CONFIG_PACKAGE_luci-app-watchcat=n                        # (不编译) 断网检测与守护插件
-CONFIG_PACKAGE_luci-app-3cat=n                            # (不编译) 3G/4G 猫拨号上网工具
