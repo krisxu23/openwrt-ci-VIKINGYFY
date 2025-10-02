@@ -138,4 +138,6 @@ CONFIG_PACKAGE_luci-app-momo=y                            # momo 代理插件
 CONFIG_PACKAGE_luci-app-nikki=y                           # nikki 代理插件
 CONFIG_PACKAGE_luci-app-sqm=y                             # 流量整形 (SQM) 插件
 CONFIG_PACKAGE_luci-app-mosdns=y                          # dns 插件
+CONFIG_PACKAGE_luci-app-firewall=y                        # 编译 LuCI 的防火墙图形化配置界面
+CONFIG_PACKAGE_luci-app-vlmcsd=y                          # 编译 vlmcsd 服务的 LuCI 图形化配置界面。vlmcsd 是一个 KMS (密钥管理服务) 模拟器
 # ==================================================
