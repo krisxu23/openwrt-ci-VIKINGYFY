@@ -21,6 +21,11 @@ CONFIG_PACKAGE_kmod-ath11k-pci=y                          # 将 ath11k PCI 无�
 CONFIG_NSS_DRV_WIFI_MESH_ENABLE=y                         # 启用 NSS 驱动对 Wi-Fi Mesh 的支持
 CONFIG_PACKAGE_MAC80211_MESH=y                            # 启用 802.11s Mesh 网络支持
 CONFIG_ATH11K_NSS_MESH_SUPPORT=y                          # 启用 ath11k 驱动对 NSS Mesh 的加速支持
+CONFIG_NSS_WIFI_ENABLE=y                                  # 启用 NSS Wi-Fi 加速相关核心选项
+CONFIG_NSS_DRV_WIFI_ENABLE=y
+CONFIG_ATH11K_NSS_SUPPORT=y
+CONFIG_PACKAGE_kmod-qca-nss-wifi=y                        # 编译 NSS Wi-Fi 的高通驱动模块
+CONFIG_PACKAGE_qca-nss-wifi-fw=y                          # 编译 NSS Wi-Fi 的固件加载包（firmware）
 
 # ==================================================
 # 特定的 LuCI 插件
