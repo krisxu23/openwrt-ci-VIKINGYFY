@@ -1,6 +1,7 @@
 # ==================================================
 # 通用编译配置 (General Build Configuration)
 # ==================================================
+CONFIG_USE_APK=n                                          # 禁用APK安装包
 CONFIG_DEVEL=y                                            # 启用开发者选项 (提供更详细的调试信息)
 CONFIG_TARGET_OPTIONS=y                                   # 启用目标平台特定选项
 CONFIG_TARGET_OPTIMIZATION="-O3 -pipe -march=armv8-a+crypto+crc -mcpu=cortex-a53+crypto+crc -mtune=cortex-a53" # 设置编译器优化: -O3 优化等级, 并针对 Cortex-A53 架构进行优化
