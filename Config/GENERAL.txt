@@ -217,9 +217,7 @@ CONFIG_PACKAGE_luci-app-mosdns=y                          # dns 插件
 CONFIG_PACKAGE_luci-app-firewall=y                        # 编译 LuCI 的防火墙图形化配置界面
 # ==================================================
 
-==================================================
-=== 补充内容：根据初始需求添加 ===
-==================================================
+
 # LuCI 相关
 CONFIG_PACKAGE_luci-app-cpulimit=y
 CONFIG_PACKAGE_cpulimit=y
